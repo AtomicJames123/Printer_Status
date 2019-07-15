@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-License: https://javaee.github.io/javamail/LICENSE
+Bundle-SymbolicName: javax.mail-api
+Archiver-Version: Plexus Archiver
+Built-By: shannon
+Bnd-LastModified: 1500321358867
+Implementation-Vendor-Id: com.sun
+Specification-Title: javax.mail.javax.mail-api
+Bundle-DocURL: http://www.oracle.com
+Import-Package: com.sun.mail.util,javax.activation,javax.mail;version=
+ "1.6",javax.mail.event;version="1.6",javax.mail.internet;version="1.6
+ ",javax.mail.search;version="1.6",javax.mail.util;version="1.6",javax
+ .security.sasl;resolution:=optional,sun.security.util;resolution:=opt
+ ional
+DynamicImport-Package: *
+Export-Package: javax.mail;uses:="javax.mail.event,javax.mail.search,j
+ avax.activation,com.sun.mail.util";version="1.6",javax.mail.search;us
+ es:="javax.mail,javax.mail.internet";version="1.6",javax.mail.util;us
+ es:="javax.mail.internet,javax.activation";version="1.6",javax.mail.i
+ nternet;uses:="javax.mail,com.sun.mail.util,javax.activation,javax.ma
+ il.util";version="1.6",javax.mail.event;uses:="javax.mail";version="1
+ .6"
+Bundle-Name: JavaMail API jar
+Extension-Name: javax.mail
+Implementation-Title: javax.mail.javax.mail-api
+Bundle-Description: JavaMail API jar
+Implementation-Version: 1.6.0
+Specification-Vendor: Oracle
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Oracle
+Tool: Bnd-0.0.357
+Implementation-Vendor: Oracle
+Originally-Created-By: 1.8.0_131 (Oracle Corporation)
+Probe-Provider-XML-File-Names: 
+Bundle-Version: 1.6.0
+Created-By: 1.8.0_131 (Oracle Corporation)
+Build-Jdk: 1.8.0_131
+Specification-Version: 1.6
+
